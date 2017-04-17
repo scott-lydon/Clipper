@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF85B571EA47F9200D9F05F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF85B561EA47F9200D9F05F /* AppDelegate.swift */; };
+		CEF85B591EA47F9200D9F05F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF85B581EA47F9200D9F05F /* ViewController.swift */; };
+		CEF85B5C1EA47F9300D9F05F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF85B5A1EA47F9300D9F05F /* Main.storyboard */; };
+		CEF85B5E1EA47F9300D9F05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF85B5D1EA47F9300D9F05F /* Assets.xcassets */; };
+		CEF85B611EA47F9300D9F05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF85B5F1EA47F9300D9F05F /* LaunchScreen.storyboard */; };
+		CEF85B6C1EA47F9300D9F05F /* ClipperCardUXDGATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF85B6B1EA47F9300D9F05F /* ClipperCardUXDGATests.swift */; };
+		CEF85B771EA47F9300D9F05F /* ClipperCardUXDGAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF85B761EA47F9300D9F05F /* ClipperCardUXDGAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF85B681EA47F9300D9F05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF85B4B1EA47F9100D9F05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF85B521EA47F9200D9F05F;
+			remoteInfo = ClipperCardUXDGA;
+		};
+		CEF85B731EA47F9300D9F05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF85B4B1EA47F9100D9F05F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF85B521EA47F9200D9F05F;
+			remoteInfo = ClipperCardUXDGA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF85B531EA47F9200D9F05F /* ClipperCardUXDGA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipperCardUXDGA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF85B561EA47F9200D9F05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF85B581EA47F9200D9F05F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF85B5B1EA47F9300D9F05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF85B5D1EA47F9300D9F05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF85B601EA47F9300D9F05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF85B621EA47F9300D9F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF85B671EA47F9300D9F05F /* ClipperCardUXDGATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipperCardUXDGATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF85B6B1EA47F9300D9F05F /* ClipperCardUXDGATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipperCardUXDGATests.swift; sourceTree = "<group>"; };
+		CEF85B6D1EA47F9300D9F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF85B721EA47F9300D9F05F /* ClipperCardUXDGAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipperCardUXDGAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF85B761EA47F9300D9F05F /* ClipperCardUXDGAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipperCardUXDGAUITests.swift; sourceTree = "<group>"; };
+		CEF85B781EA47F9300D9F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF85B501EA47F9200D9F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF85B641EA47F9300D9F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF85B6F1EA47F9300D9F05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF85B4A1EA47F9100D9F05F = {
+			isa = PBXGroup;
+			children = (
+				CEF85B551EA47F9200D9F05F /* ClipperCardUXDGA */,
+				CEF85B6A1EA47F9300D9F05F /* ClipperCardUXDGATests */,
+				CEF85B751EA47F9300D9F05F /* ClipperCardUXDGAUITests */,
+				CEF85B541EA47F9200D9F05F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF85B541EA47F9200D9F05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF85B531EA47F9200D9F05F /* ClipperCardUXDGA.app */,
+				CEF85B671EA47F9300D9F05F /* ClipperCardUXDGATests.xctest */,
+				CEF85B721EA47F9300D9F05F /* ClipperCardUXDGAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF85B551EA47F9200D9F05F /* ClipperCardUXDGA */ = {
+			isa = PBXGroup;
+			children = (
+				CEF85B561EA47F9200D9F05F /* AppDelegate.swift */,
+				CEF85B581EA47F9200D9F05F /* ViewController.swift */,
+				CEF85B5A1EA47F9300D9F05F /* Main.storyboard */,
+				CEF85B5D1EA47F9300D9F05F /* Assets.xcassets */,
+				CEF85B5F1EA47F9300D9F05F /* LaunchScreen.storyboard */,
+				CEF85B621EA47F9300D9F05F /* Info.plist */,
+			);
+			path = ClipperCardUXDGA;
+			sourceTree = "<group>";
+		};
+		CEF85B6A1EA47F9300D9F05F /* ClipperCardUXDGATests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF85B6B1EA47F9300D9F05F /* ClipperCardUXDGATests.swift */,
+				CEF85B6D1EA47F9300D9F05F /* Info.plist */,
+			);
+			path = ClipperCardUXDGATests;
+			sourceTree = "<group>";
+		};
+		CEF85B751EA47F9300D9F05F /* ClipperCardUXDGAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF85B761EA47F9300D9F05F /* ClipperCardUXDGAUITests.swift */,
+				CEF85B781EA47F9300D9F05F /* Info.plist */,
+			);
+			path = ClipperCardUXDGAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF85B521EA47F9200D9F05F /* ClipperCardUXDGA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF85B7B1EA47F9300D9F05F /* Build configuration list for PBXNativeTarget "ClipperCardUXDGA" */;
+			buildPhases = (
+				CEF85B4F1EA47F9200D9F05F /* Sources */,
+				CEF85B501EA47F9200D9F05F /* Frameworks */,
+				CEF85B511EA47F9200D9F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipperCardUXDGA;
+			productName = ClipperCardUXDGA;
+			productReference = CEF85B531EA47F9200D9F05F /* ClipperCardUXDGA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF85B661EA47F9300D9F05F /* ClipperCardUXDGATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF85B7E1EA47F9400D9F05F /* Build configuration list for PBXNativeTarget "ClipperCardUXDGATests" */;
+			buildPhases = (
+				CEF85B631EA47F9300D9F05F /* Sources */,
+				CEF85B641EA47F9300D9F05F /* Frameworks */,
+				CEF85B651EA47F9300D9F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF85B691EA47F9300D9F05F /* PBXTargetDependency */,
+			);
+			name = ClipperCardUXDGATests;
+			productName = ClipperCardUXDGATests;
+			productReference = CEF85B671EA47F9300D9F05F /* ClipperCardUXDGATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF85B711EA47F9300D9F05F /* ClipperCardUXDGAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF85B811EA47F9400D9F05F /* Build configuration list for PBXNativeTarget "ClipperCardUXDGAUITests" */;
+			buildPhases = (
+				CEF85B6E1EA47F9300D9F05F /* Sources */,
+				CEF85B6F1EA47F9300D9F05F /* Frameworks */,
+				CEF85B701EA47F9300D9F05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF85B741EA47F9300D9F05F /* PBXTargetDependency */,
+			);
+			name = ClipperCardUXDGAUITests;
+			productName = ClipperCardUXDGAUITests;
+			productReference = CEF85B721EA47F9300D9F05F /* ClipperCardUXDGAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF85B4B1EA47F9100D9F05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Scott;
+				TargetAttributes = {
+					CEF85B521EA47F9200D9F05F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8L7Z3WU967;
+						ProvisioningStyle = Automatic;
+					};
+					CEF85B661EA47F9300D9F05F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8L7Z3WU967;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEF85B521EA47F9200D9F05F;
+					};
+					CEF85B711EA47F9300D9F05F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8L7Z3WU967;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEF85B521EA47F9200D9F05F;
+					};
+				};
+			};
+			buildConfigurationList = CEF85B4E1EA47F9100D9F05F /* Build configuration list for PBXProject "ClipperCardUXDGA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF85B4A1EA47F9100D9F05F;
+			productRefGroup = CEF85B541EA47F9200D9F05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF85B521EA47F9200D9F05F /* ClipperCardUXDGA */,
+				CEF85B661EA47F9300D9F05F /* ClipperCardUXDGATests */,
+				CEF85B711EA47F9300D9F05F /* ClipperCardUXDGAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF85B511EA47F9200D9F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF85B611EA47F9300D9F05F /* LaunchScreen.storyboard in Resources */,
+				CEF85B5E1EA47F9300D9F05F /* Assets.xcassets in Resources */,
+				CEF85B5C1EA47F9300D9F05F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF85B651EA47F9300D9F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF85B701EA47F9300D9F05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF85B4F1EA47F9200D9F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF85B591EA47F9200D9F05F /* ViewController.swift in Sources */,
+				CEF85B571EA47F9200D9F05F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF85B631EA47F9300D9F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF85B6C1EA47F9300D9F05F /* ClipperCardUXDGATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF85B6E1EA47F9300D9F05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF85B771EA47F9300D9F05F /* ClipperCardUXDGAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF85B691EA47F9300D9F05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF85B521EA47F9200D9F05F /* ClipperCardUXDGA */;
+			targetProxy = CEF85B681EA47F9300D9F05F /* PBXContainerItemProxy */;
+		};
+		CEF85B741EA47F9300D9F05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF85B521EA47F9200D9F05F /* ClipperCardUXDGA */;
+			targetProxy = CEF85B731EA47F9300D9F05F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF85B5A1EA47F9300D9F05F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF85B5B1EA47F9300D9F05F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF85B5F1EA47F9300D9F05F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF85B601EA47F9300D9F05F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF85B791EA47F9300D9F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF85B7A1EA47F9300D9F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF85B7C1EA47F9300D9F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8L7Z3WU967;
+				INFOPLIST_FILE = ClipperCardUXDGA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scott.ClipperCardUXDGA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEF85B7D1EA47F9300D9F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8L7Z3WU967;
+				INFOPLIST_FILE = ClipperCardUXDGA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scott.ClipperCardUXDGA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEF85B7F1EA47F9400D9F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8L7Z3WU967;
+				INFOPLIST_FILE = ClipperCardUXDGATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scott.ClipperCardUXDGATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipperCardUXDGA.app/ClipperCardUXDGA";
+			};
+			name = Debug;
+		};
+		CEF85B801EA47F9400D9F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8L7Z3WU967;
+				INFOPLIST_FILE = ClipperCardUXDGATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scott.ClipperCardUXDGATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipperCardUXDGA.app/ClipperCardUXDGA";
+			};
+			name = Release;
+		};
+		CEF85B821EA47F9400D9F05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8L7Z3WU967;
+				INFOPLIST_FILE = ClipperCardUXDGAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scott.ClipperCardUXDGAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClipperCardUXDGA;
+			};
+			name = Debug;
+		};
+		CEF85B831EA47F9400D9F05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8L7Z3WU967;
+				INFOPLIST_FILE = ClipperCardUXDGAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scott.ClipperCardUXDGAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClipperCardUXDGA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF85B4E1EA47F9100D9F05F /* Build configuration list for PBXProject "ClipperCardUXDGA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF85B791EA47F9300D9F05F /* Debug */,
+				CEF85B7A1EA47F9300D9F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF85B7B1EA47F9300D9F05F /* Build configuration list for PBXNativeTarget "ClipperCardUXDGA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF85B7C1EA47F9300D9F05F /* Debug */,
+				CEF85B7D1EA47F9300D9F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF85B7E1EA47F9400D9F05F /* Build configuration list for PBXNativeTarget "ClipperCardUXDGATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF85B7F1EA47F9400D9F05F /* Debug */,
+				CEF85B801EA47F9400D9F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEF85B811EA47F9400D9F05F /* Build configuration list for PBXNativeTarget "ClipperCardUXDGAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF85B821EA47F9400D9F05F /* Debug */,
+				CEF85B831EA47F9400D9F05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF85B4B1EA47F9100D9F05F /* Project object */;
+}
